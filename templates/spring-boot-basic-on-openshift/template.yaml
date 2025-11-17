@@ -53,11 +53,11 @@ spec:
         groupId:
           title: Maven Group ID
           type: string
-          default: pl.piomin.services
+          default: dvt.rh.services
         javaPackage:
           title: Java package directory
           type: string
-          default: pl/piomin/services
+          default: dvt/rh/services
         apiPath:
           title: REST API path
           type: string
@@ -87,7 +87,7 @@ spec:
         clusterDomain:
           title: OpenShift Cluster Domain
           type: string
-          default: apps.piomin.eastus.aroapp.io
+          default: apps.lab.innovative-tech.be
         enabledDB:
           title: Enable Database
           type: boolean
