@@ -22,7 +22,7 @@ spec:
       containers:
         - name: ${{ values.appName }}
           #image: ${{ values.registryUrl }}/${{ values.registryGroup }}/${{ values.appName }}:1.0
-          image: quay.io/repository/hawtio/hawtio-springboot-test-app:4.x-21-noauth
+          image: quay.io/service-binding/spring-petclinic:latest
           ports:
             - containerPort: 8080
               name: http
